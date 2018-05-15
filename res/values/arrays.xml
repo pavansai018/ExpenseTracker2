@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_multi_choice_array">
+        <item>Alerts when exceeds 25% budget</item>
+
+        <item>Alerts when exceeds 50% budgets</item>
+
+        <item>Alert when exceeds 75% budget</item>
+    </string-array>
+
+</resources>

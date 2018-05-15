@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+               <item
+            android:id="@+id/nav_update_info"
+                   android:icon="@drawable/update_info_icon"
+            android:title="update information" />
+
+
+        <item
+            android:id="@+id/nav_change_pass"
+           android:icon="@drawable/ic_edit_black_24dp"
+            android:title="change password" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_signout"
+
+            android:title="sign out" />
+
+        <item
+            android:id="@+id/nav_alerts"
+            android:icon="@drawable/ic_add_alert_black_24dp"
+            android:title="alerts" />
+
+        <item
+            android:id="@+id/nav_remainder"
+            android:icon="@drawable/ic_access_alarms_black_24dp"
+            android:title="remainder" />
+
+
+
+    </group>
+
+
+
+</menu>

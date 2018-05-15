@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/edtName"
+        android:hint="Name"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#eeb1a1a1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+
+
+
+        />
+    <EditText
+        android:id="@+id/edtPhone"
+        android:hint="Phone"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#eeb1a1a1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+
+        />
+    <ImageView
+        android:id="@+id/image_upload"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/add_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:id="@+id/in_date"
+        android:hint="date of birth"
+
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE OF BIRTH"
+        android:id="@+id/btn_date"
+        android:layout_alignBottom="@+id/in_date"
+        android:layout_toRightOf="@+id/in_date"
+        android:layout_toEndOf="@+id/in_date" />
+    <EditText
+        android:id="@+id/edtAddress"
+        android:hint="Enter Address"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#eeb1a1a1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+</LinearLayout>

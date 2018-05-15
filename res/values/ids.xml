@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="phnlayout" type="id" />
+    <item name="codelayout" type="id" />
+    <item name="phonetext" type="id" />
+    <item name="codetext" type="id" />
+    <item name="phonebar" type="id" />
+    <item name="codebar" type="id" />
+    <item name="sendbtn" type="id" />
+    <item name="errortext" type="id" />
+</resources>

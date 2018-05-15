@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.krishnachaitanya.expensetracker.plus"
+    android:orientation="vertical">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/holo_blue_light"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+           <ImageButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/close"
+               android:background="@android:color/holo_blue_light"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="20dp"
+               android:onClick="prev"
+               />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+
+            android:text="Date"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="40dp"
+            android:clickable="true"
+            android:id="@+id/date"
+            android:focusable="false"
+            android:cursorVisible="true"
+            android:hint="Today"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="10dp"
+
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textSize="15sp"
+            android:layout_marginRight="40dp"
+            android:inputType="numberDecimal"
+            android:hint="Enter Amount"
+            android:id="@+id/amount"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Category"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/cat"
+            android:clickable="true"
+            android:focusable="false"
+            android:cursorVisible="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:text="Note"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/note"
+            android:hint="Note(optional)" />
+    </LinearLayout>
+   </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+           android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:backgroundTint="@android:color/darker_gray"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_file_upload_black_24dp" />
+    </RelativeLayout>
+</FrameLayout>
+</LinearLayout>

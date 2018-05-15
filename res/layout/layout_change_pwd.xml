@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/edtPassword"
+        android:hint="Enter The Password"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#eeb1a1a1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        />
+    <EditText
+        android:id="@+id/edtNewPassword"
+        android:hint="Enter New Password"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#eeb1a1a1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+
+        />
+    <EditText
+        android:id="@+id/edtRepeatpassword"
+        android:hint="Repeat New Password"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#eeb1a1a1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+
+        />
+</LinearLayout>

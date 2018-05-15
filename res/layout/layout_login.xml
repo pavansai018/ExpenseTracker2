@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/edtEmail"
+            android:hint="enter the email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="#eeb1a1a1"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            />
+        <EditText
+            android:id="@+id/edtPassword"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="#eeb1a1a1"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+
+            />
+        </LinearLayout>

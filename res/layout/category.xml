@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clothing"
+        android:id="@+id/Clothing"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entertainment"
+        android:id="@+id/Entertainment"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food"
+        android:id="@+id/Food"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health"
+        android:id="@+id/Health"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fuel"
+        android:id="@+id/Fuel"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stationary"
+        android:id="@+id/Stationary"/>
+
+    <Button
+        android:id="@+id/Salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salary" />
+    </LinearLayout>
